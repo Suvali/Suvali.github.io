@@ -1,8 +1,8 @@
-var food = ["grilled cheese sandwich", “spaghetti bolognese”, “cheese pizza”, “caesar salad”];
+var food = ["tomato souph", “spaghetti bolognese”, “cheese pizza”, “caesar salad”];
 undefined
 var foodObj = {
-    "grilled cheese sandwich": {
-        ingredients: "bread, cheese",
+    "tomato soup": {
+        ingredients: "tomatoes",
         nutrition: "40g carbohydrates"}
     },
     "spaghetti bolognese":  {
@@ -18,6 +18,7 @@ var foodObj = {
         nutrition: "360 carbohydrates"}
         
         var search = function (searchStr) {findObj = null;
+                                           var obj = ["tomato soup", "spaghetti bolognese", "cheese pizza", "caesar salad"]
     for (var key in obj) {
     if (obj.hasOwnProperty(key)) {
         for (var k in obj[key]) {
