@@ -16,6 +16,8 @@ var foodObj = {
     "caesar salad":  {
         ingredients: "romaine lettuce, anchovy sauce, croutons",
         nutrition: "360 carbohydrates"}
+}
+
 
         var obj = ["tomato soup", "spaghetti bolognese", "cheese pizza", "caesar salad"];
         var search = function (searchStr) {findObj = null;
